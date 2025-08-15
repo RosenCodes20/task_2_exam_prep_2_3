@@ -1,0 +1,11 @@
+groups:
+  - name: blackbox-latency-alerts
+    rules:
+      - alert: TargetSlowResponse
+        expr: probe_duration_seconds > 0.000000001
+        for: 10s
+        labels:
+          severity: warning
+        annotations:
+          summary: "Target {{ $labels.instance }} is responding slowly"
+          description: "Probe to {{ $labels.instance }} took more than 1 second to respond."
