@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Watchlist.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6bdacdad3e544f11352c8c08e4d5b9a61a51066")]
 [assembly: System.Reflection.AssemblyProductAttribute("Watchlist.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Watchlist.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
